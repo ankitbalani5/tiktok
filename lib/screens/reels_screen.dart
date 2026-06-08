@@ -10,12 +10,10 @@ class ReelsScreen extends StatefulWidget {
   const ReelsScreen({super.key});
 
   @override
-  State<ReelsScreen> createState() =>
-      _ReelsScreenState();
+  State<ReelsScreen> createState() => _ReelsScreenState();
 }
 
-class _ReelsScreenState
-    extends State<ReelsScreen> {
+class _ReelsScreenState extends State<ReelsScreen> {
 
   final pageController = PreloadPageController();
 

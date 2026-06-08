@@ -10,11 +10,7 @@ class ReelItem extends StatefulWidget {
   final ReelModel reel;
   final bool isPlaying;
 
-  const ReelItem({
-    super.key,
-    required this.reel,
-    required this.isPlaying,
-  });
+  const ReelItem({super.key, required this.reel, required this.isPlaying,});
 
   @override
   State<ReelItem> createState() => _ReelItemState();
@@ -225,7 +221,7 @@ class _ReelItemState extends State<ReelItem> {
 
               const SizedBox(height: 25),
 
-              // 💬 COMMENT
+              // COMMENT
               GestureDetector(
                 onTap: () {
                   // TODO: open comments bottom sheet
@@ -247,7 +243,7 @@ class _ReelItemState extends State<ReelItem> {
 
               const SizedBox(height: 25),
 
-              // 📤 SHARE
+              // SHARE
               GestureDetector(
                 onTap: () {
                   // TODO: share reel
@@ -269,7 +265,7 @@ class _ReelItemState extends State<ReelItem> {
 
               const SizedBox(height: 25),
 
-              // 🔖 BOOKMARK
+              // BOOKMARK
               GestureDetector(
                 onTap: () {
                   // TODO: bookmark logic

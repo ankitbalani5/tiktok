@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiktok/mainScreen.dart';
 import 'package:tiktok/screens/reels_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ReelsScreen(),
+      home: MainScreen(),
     );
   }
 }

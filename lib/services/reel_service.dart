@@ -6,8 +6,7 @@ class ReelService {
 
   Future<List<ReelModel>> getReels() async {
 
-    final snapshot =
-    await FirebaseFirestore.instance
+    final snapshot = await FirebaseFirestore.instance
         .collection('reels')
         .get();
 
